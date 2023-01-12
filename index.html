@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev1_1_forms&js_function_double</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+
+<body>
+    <!-- Lev1_1_forms+js_function-double -->
+
+    <section>
+        <form onsubmit="return false">
+            <input type="number" name="number" id="number">
+            <input onclick="double()" type="submit" value="Double Me">
+        </form>
+        <p id="result"></p>
+    </section>
+
+<!-- Lev1_2_forms+js_function-your-age -->
+
+    <section>
+        <form onsubmit="return false">
+            <label for="year">Enter your birth year.</label>
+            <input type="number" name="year" id="year">
+            <input id="button" type="submit" value="Calculate your age">
+        </form>
+
+        <p id="resultOne"></p>
+    </section>
+
+<!-- Lev1_3_forms+js_function-compare-age -->
+
+    <section>
+        <form onsubmit="return false" class="shortForm">
+            <label for="ageOne">ageOne</label>
+            <input type="number" name="ageOne" id="ageOne">
+            <label for="ageTwo">ageTwo</label>
+            <input type="number" name="ageTwo" id="ageTwo">
+            <input id="buttonTwo" type="submit" value="calculate!">
+        </form>
+
+        <p>Difference:</p>
+        <p id="difference"></p>
+    </section>
+
+<!-- Lev1_3_projekt_js-einführung_counter -->
+
+    <section>
+        <p>Counter</p>
+        <form onsubmit="return false">
+            <input id="plusOne" type="submit" value="+1">
+            <input id="minusOne" type="submit" value="-1">
+            <input id="plusTen" type="submit" value="+10">
+            <input id="minusTen" type="submit" value="-10">
+            <input id="plusHundred" type="submit" value="+100">
+            <input id="minusHundred" type="submit" value="-100">
+            <input id="reset" type="submit" value="Reset">
+            <input id="twoTimes" type="submit" value="*2">
+        </form>
+        <p id="nextResult">0</p>
+    </section>
+
+<!-- Lev2_1_js-einführung_classList-onclick -->
+
+    <section>
+        <h1 id="headline" class="optionBlack">Headline</h1>
+        <button id="redButton">Red</button>
+        <button id="blackButton">Black</button>
+        <button id="greenButton">Green</button>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

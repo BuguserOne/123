@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+}
+
+section {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 100px 30px;
+    margin: 20px;
+}
+
+
+.optionBlack {
+    color: black;
+}
+
+.optionRed {
+    color: red;
+}
+
+.optionGreen {
+    color: green;
+}
